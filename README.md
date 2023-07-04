@@ -20,28 +20,25 @@ Before using the AppStoreVersionChecker script, ensure you have the following pr
 
 ## Installation
 
-To use the PlayStoreVersionChecker script, follow the steps below to install and set up the project.
-
-### System Requirements
-- Python 3.x
+To use the AppStoreVersionChecker script, follow the steps below to install and set up the project.
 
 ### Step 1: Clone the Repository
-Clone the PlayStoreVersionChecker repository to your local machine using the following command:
-
+Clone the AppStoreVersionChecker repository to your local machine using the following command:
 ```
-git clone https://github.com/your-username/PlayStoreVersionChecker.git
+git clone https://github.com/pavan2318/AppStoreVersionChecker.git
 ```
 ### Step 2: Navigate to the Project Directory
 Navigate to the project directory by executing the following command:
-cd PlayStoreVersionChecker
-
+```
+cd AppStoreVersionChecker
+```
 ### Step 3: Install Dependencies
 The script relies on the requests and beautifulsoup4 libraries. Install them by running the following command:
 ```
 pip install -r requirements.txt
 ```
 ### Step 4: Run the Script
-You are now ready to run the PlayStoreVersionChecker script. Execute the following command:
+You are now ready to run the AppStoreVersionChecker script. Execute the following command:
 ```
 python appstore_version_checker.py
 ```
