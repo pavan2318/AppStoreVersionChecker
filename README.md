@@ -43,3 +43,25 @@ You are now ready to run the AppStoreVersionChecker script. Execute the followin
 python appstore_version_checker.py
 ```
 The script will prompt you to enter the Apple Play Store URL for the application. Once you provide the URL, it will fetch the current running version of the application and display it on the console.
+
+## Usage
+
+To use the AppStoreVersionChecker script, follow the steps below:
+
+### Step 1: Run the Script
+Execute the following command to run the AppStoreVersionChecker script:
+
+```
+python appstore_version_checker.py
+```
+### Step 2: Enter the Apple Play Store URL
+The script will prompt you to enter the Apple Play Store URL for the application. Provide the URL as requested. For example:
+```
+Enter the Apple Play Store URL for the application: https://apps.apple.com/us/app/example-app/id123456789
+```
+### Step 3: Retrieve the Application Version
+Once you provide the URL, the script will send a request to the Play Store website and retrieve the current running version of the application. It will display the fetched version on the console. For example:
+```
+Current running version: 1.2.3
+```
+Congratulations! You have successfully used the AppStoreVersionChecker script to fetch the current running version of an application on the Apple Play Store.
