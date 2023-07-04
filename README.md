@@ -15,7 +15,7 @@ Using the AppStoreVersionChecker script provides several benefits:
 ### Prerequisites and Dependencies
 Before using the AppStoreVersionChecker script, ensure you have the following prerequisites and dependencies in place:
 - **Python**: The script requires Python 3.x to run. If you don't have Python installed, you can download it from the official Python website: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-- **Requests Library**: The script uses the `requests` library to send HTTP requests to the Play Store website. You can install it using `pip` with the following command: `pip install requests`
+- **Requests Library**: The script uses the `requests` library to send HTTP requests to the App Store website. You can install it using `pip` with the following command: `pip install requests`
 - **Beautiful Soup**: The script utilizes the `BeautifulSoup` library to parse and extract data from HTML content. Install it using `pip` with the following command: `pip install beautifulsoup4`
 
 ## Installation
@@ -42,7 +42,7 @@ You are now ready to run the AppStoreVersionChecker script. Execute the followin
 ```
 python appstore_version_checker.py
 ```
-The script will prompt you to enter the Apple Play Store URL for the application. Once you provide the URL, it will fetch the current running version of the application and display it on the console.
+The script will prompt you to enter the Apple App Store URL for the application. Once you provide the URL, it will fetch the current running version of the application and display it on the console.
 
 ## Usage
 
@@ -54,14 +54,32 @@ Execute the following command to run the AppStoreVersionChecker script:
 ```
 python appstore_version_checker.py
 ```
-### Step 2: Enter the Apple Play Store URL
-The script will prompt you to enter the Apple Play Store URL for the application. Provide the URL as requested. For example:
+### Step 2: Enter the Apple App Store URL
+The script will prompt you to enter the Apple App Store URL for the application. Provide the URL as requested. For example:
 ```
-Enter the Apple Play Store URL for the application: https://apps.apple.com/us/app/example-app/id123456789
+Enter the Apple App Store URL for the application: https://apps.apple.com/us/app/example-app/id123456789
 ```
 ### Step 3: Retrieve the Application Version
-Once you provide the URL, the script will send a request to the Play Store website and retrieve the current running version of the application. It will display the fetched version on the console. For example:
+Once you provide the URL, the script will send a request to the App Store website and retrieve the current running version of the application. It will display the fetched version on the console. For example:
 ```
 Current running version: 1.2.3
 ```
-Congratulations! You have successfully used the AppStoreVersionChecker script to fetch the current running version of an application on the Apple Play Store.
+Congratulations! You have successfully used the AppStoreVersionChecker script to fetch the current running version of an application on the Apple App Store.
+
+## Acknowledgments
+
+We would like to express our gratitude to the following individuals and resources that have contributed to the development of the AppStoreVersionChecker script:
+
+- **Open-source Community**: We extend our appreciation to the open-source community for providing valuable resources, libraries, and frameworks that have been instrumental in building this project.
+
+- **Beautiful Soup**: We would like to thank the developers of Beautiful Soup for creating a powerful and easy-to-use library that enables HTML parsing and data extraction. More information about Beautiful Soup can be found at [https://www.crummy.com/software/BeautifulSoup/](https://www.crummy.com/software/BeautifulSoup/).
+
+- **Requests Library**: We acknowledge the developers of the Requests library for providing a user-friendly HTTP library that simplifies sending requests and handling responses. More information about the Requests library can be found at [https://docs.python-requests.org/en/latest/](https://docs.python-requests.org/en/latest/).
+
+- **Stack Overflow**: We express our gratitude to the Stack Overflow community for their contributions and support in answering programming-related questions that helped us overcome challenges during the development of this project.
+
+- **GitHub**: We would like to thank GitHub for providing a robust platform that allows us to host and share our project with the community.
+
+- **Contributors**: We appreciate the efforts of all contributors who have submitted bug reports, feature requests, and pull requests to improve the AppStoreVersionChecker script.
+
+Thank you all for your valuable contributions and support!
