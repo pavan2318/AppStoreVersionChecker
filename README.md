@@ -66,6 +66,23 @@ Current running version: 1.2.3
 ```
 Congratulations! You have successfully used the AppStoreVersionChecker script to fetch the current running version of an application on the Apple App Store.
 
+## Changelog
+
+### Version 0.1 (2023-07-01)
+- Initial release of AppStoreVersionChecker
+- Added functionality to retrieve the current running version of an application on the Apple App Store
+- Implemented parsing of HTML response to extract version information
+- Provided a command-line interface for user interaction
+- Supported customization of the App Store URL
+
+## Support
+
+If you have any questions, need assistance, or want to provide feedback for the ApptoreVersionChecker project, feel free to reach out to us. We are here to help!
+
+- For general inquiries or discussions, you can DM on Discord: [Discord Server](https://discordapp.com/users/pavan2318)
+
+We encourage open communication and value your input. Please don't hesitate to ask questions or share your thoughts about the project.
+
 ## Acknowledgments
 
 We would like to express our gratitude to the following individuals and resources that have contributed to the development of the AppStoreVersionChecker script:
@@ -83,13 +100,3 @@ We would like to express our gratitude to the following individuals and resource
 - **Contributors**: We appreciate the efforts of all contributors who have submitted bug reports, feature requests, and pull requests to improve the AppStoreVersionChecker script.
 
 Thank you all for your valuable contributions and support!
-
-## Changelog
-
-### Version 0.1 (2023-07-01)
-- Initial release of AppStoreVersionChecker
-- Added functionality to retrieve the current running version of an application on the Apple App Store
-- Implemented parsing of HTML response to extract version information
-- Provided a command-line interface for user interaction
-- Supported customization of the App Store URL
-
