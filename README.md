@@ -83,3 +83,13 @@ We would like to express our gratitude to the following individuals and resource
 - **Contributors**: We appreciate the efforts of all contributors who have submitted bug reports, feature requests, and pull requests to improve the AppStoreVersionChecker script.
 
 Thank you all for your valuable contributions and support!
+
+## Changelog
+
+### Version 0.1 (2023-07-01)
+- Initial release of AppStoreVersionChecker
+- Added functionality to retrieve the current running version of an application on the Apple App Store
+- Implemented parsing of HTML response to extract version information
+- Provided a command-line interface for user interaction
+- Supported customization of the App Store URL
+
